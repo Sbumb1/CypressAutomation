@@ -57,13 +57,13 @@ describe("UI Elements", function(){
     })
 
 
-    it("Verify drop downs", function(){
+    it.only("Verify drop downs", function(){
 
         cy.get("#Skills").select("Android").should("have.value","Android")
 
     })
 
-    it("Languages multi select", function(){
+    it.only("Languages multi select", function(){
 
         cy.get("#msdd").click()
         

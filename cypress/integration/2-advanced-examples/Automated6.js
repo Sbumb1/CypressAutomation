@@ -1,8 +1,8 @@
-/// reference types="cypres" />
+/// reference types="cypress" />
 
-describe("Automate a Table test", function(){
+describe("Automate a Table test", () =>{
 
-    it("Table test", () => {
+    it.only("Table test", () => {
 
         cy.visit("https://testautomationpractice.blogspot.com")
 
