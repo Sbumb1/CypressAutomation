@@ -1,7 +1,7 @@
  /// <reference types="cypress" />
 
  describe("Get into account", function(){
-     it("Let's get into", function(){
+     it.only("Let's get into", function(){
          cy.visit("https://www.facebook.com/")
 
          cy.get("#email").type("bmb.sami@yahoo.com")
