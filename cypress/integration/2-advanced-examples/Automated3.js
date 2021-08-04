@@ -1,7 +1,7 @@
  /// <reference types="cypress" />
 
  describe("Youtube search" , function(){
-     it("Search something", function(){
+     it.only("Search something", function(){
 
         cy.visit("https://www.youtube.com/")
 
