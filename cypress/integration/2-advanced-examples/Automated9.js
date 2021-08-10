@@ -31,4 +31,7 @@ describe("Login", ()=>{
 
     })
 
-})
+        cy.get("#inputEmail").click().should("be.visible").should("be.empty").type("bmb.sami@yahoo.com")
+
+
+    })
